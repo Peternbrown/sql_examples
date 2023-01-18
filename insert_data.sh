@@ -39,7 +39,7 @@ do
 
       TEAM_ID=$($PSQL "SELECT team_id FROM teams WHERE name='$OPPONENT'")
     fi
-  fi\qq\q
+  fi
   if
     [[ $YEAR != year ]]
     then
